@@ -1,0 +1,53 @@
+section_id: 7
+intro: "後半が please let us know / please contact us などの依頼なら、これから対応可能かを問う文脈が基本。"
+natural_columns:
+  - 形
+  - 意味
+  - 例文
+  - 日本語
+  - 判定
+natural_rows:
+  - 形: could + V
+    意味: 〜できるようでしたら
+    例文: If you could send the document, please let us know.
+    日本語: 書類を送れるようでしたらお知らせください。
+    判定: ◎
+  - 形: can + V
+    意味: 〜できるなら
+    例文: If you can send the document, please let us know.
+    日本語: 書類を送れるならお知らせください。
+    判定: ○
+  - 形: V / V-s
+    意味: 〜するなら
+    例文: If you send the document, please let us know.
+    日本語: 書類を送る場合はお知らせください。
+    判定: ○
+  - 形: would + V
+    意味: 〜していただける意向があるなら
+    例文: If you would send the document, please let us know.
+    日本語: 書類を送っていただけるようでしたらお知らせください。
+    判定: △
+unnatural_columns:
+  - 形
+  - なぜ不自然か
+  - 例文
+  - 判定
+unnatural_rows:
+  - 形: had done
+    なぜ不自然か: 過去に〜していたなら、という意味になる
+    例文: If you had sent the document, please let us know.
+    判定: ×
+  - 形: would have done
+    なぜ不自然か: 過去に〜しただろうに、という意味になる
+    例文: If you would have sent the document, please let us know.
+    判定: ×
+  - 形: have been V-ing
+    なぜ不自然か: ずっと〜しているなら、になり文脈依存
+    例文: If you have been reviewing it, please let us know.
+    判定: △
+flow_steps:
+  - 後半に依頼表現があるか
+  - その依頼は今から/これからの対応確認か
+  - できるかどうかを聞いているか
+  - できるなら could + V、直接なら can + V、行為条件なら V/V-s
+  - 過去仮定 had done / would have done はこの型では不自然

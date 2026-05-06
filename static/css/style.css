@@ -1,0 +1,149 @@
+:root {
+  color-scheme: light;
+  --bg: #f4f9ff;
+  --card-bg: #ffffff;
+  --text: #1f2937;
+  --muted: #64748b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", "Hiragino Kaku Gothic ProN", sans-serif;
+  color: var(--text);
+  background: linear-gradient(180deg, #ebf5ff 0%, #fdfdff 100%);
+}
+
+.site-header,
+.site-footer {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 16px 18px;
+}
+
+.site-header h1 {
+  margin: 0;
+  color: #0d47a1;
+}
+
+.site-header p {
+  margin: 8px 0 0;
+  color: var(--muted);
+}
+
+.section-tabs {
+  display: flex;
+  gap: 8px;
+  max-width: 1100px;
+  margin: 8px auto 16px;
+  padding: 0 18px 8px;
+  overflow-x: auto;
+}
+
+.section-tab {
+  border: 2px solid var(--section-color, #1f5aa6);
+  color: var(--section-color, #1f5aa6);
+  background: white;
+  border-radius: 999px;
+  padding: 8px 14px;
+  font-size: 14px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.section-tab.is-active {
+  background: var(--section-color, #1f5aa6);
+  color: white;
+}
+
+#section-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 18px 24px;
+}
+
+.section-card {
+  background: var(--card-bg);
+  border-radius: 14px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  padding: 18px;
+}
+
+.section-card h2 {
+  margin-top: 0;
+}
+
+.table-wrapper,
+.plot-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  margin: 14px 0;
+}
+
+.point-box {
+  border-left: 5px solid #f3bf20;
+  background: #fff8d6;
+  border-radius: 8px;
+  padding: 12px;
+  margin-top: 10px;
+}
+
+.step-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.step-card,
+.flow-card,
+.quiz-card {
+  background: #f8fafc;
+  border: 1px solid #dde6f2;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.step-example {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.section-nav-inline {
+  margin-top: 14px;
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.section-nav-btn {
+  border: 1px solid #ccd8ea;
+  background: #f4f8ff;
+  border-radius: 8px;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+.site-footer {
+  color: var(--muted);
+}
+
+@media (max-width: 768px) {
+  .section-card {
+    padding: 14px;
+  }
+}
+
+@media print {
+  .section-tabs,
+  .section-nav-inline {
+    display: none;
+  }
+
+  .grammar-section[hidden] {
+    display: block !important;
+  }
+}

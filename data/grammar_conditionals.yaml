@@ -1,0 +1,151 @@
+section_id: 3
+columns:
+  - 種類
+  - if節
+  - 主節
+  - 時間
+  - 現実度
+  - 例文
+  - 日本語
+  - コアイメージ
+rows:
+  - 種類: ゼロ条件
+    if節: If + V/V-s
+    主節: V/V-s
+    時間: 一般事実
+    現実度: 高い
+    例文: If water freezes, it expands.
+    日本語: 水は凍ると膨張します。
+    コアイメージ: いつもそうなる
+  - 種類: 第1条件
+    if節: If + V/V-s
+    主節: will/can/may + V
+    時間: 未来
+    現実度: 高め
+    例文: If it rains, we will cancel the event.
+    日本語: 雨ならイベントを中止します。
+    コアイメージ: 起こりうる未来
+  - 種類: 第2条件
+    if節: If + V-ed/did
+    主節: would/could/might + V
+    時間: 現在・未来の仮定
+    現実度: 低め
+    例文: If I had more time, I could help you.
+    日本語: もっと時間があれば手伝えるのに。
+    コアイメージ: もし今/未来が違ったら
+  - 種類: 第3条件
+    if節: If + had done
+    主節: would/could/might have done
+    時間: 過去の仮定
+    現実度: 実際とは違う
+    例文: If you had asked me, I would have helped you.
+    日本語: 聞いてくれていたら手伝ったのに。
+    コアイメージ: もし過去が違ったら
+  - 種類: 混合条件
+    if節: If + had done
+    主節: would/could/might + V
+    時間: 過去原因→現在結果
+    現実度: 実際とは違う
+    例文: If she had studied accounting, she could handle this task now.
+    日本語: 会計を勉強していたら、今この仕事をこなせるのに。
+    コアイメージ: 過去が違えば今が違う
+timeline:
+  - label: ゼロ条件
+    clause: if/main
+    start: -3
+    end: 3
+    point_or_span: span
+    reality: real
+    form: If + V/V-s, V/V-s
+    meaning_ja: 一般事実
+    state: fact
+    example_en: If water freezes, it expands.
+    toeic_hint: 法則
+  - label: 第1条件_if
+    clause: if
+    start: 0
+    end: 3
+    point_or_span: condition
+    reality: likely
+    form: If + V/V-s
+    meaning_ja: 現実的な未来条件
+    state: possibility
+    example_en: If it rains...
+    toeic_hint: if節は現在形
+  - label: 第1条件_main
+    clause: main
+    start: 0
+    end: 3
+    point_or_span: span
+    reality: likely
+    form: will/can/may + V
+    meaning_ja: 未来結果
+    state: possibility
+    example_en: ...we will cancel the event.
+    toeic_hint: 主節で未来
+  - label: 第2条件_if
+    clause: if
+    start: 0
+    end: 3
+    point_or_span: condition
+    reality: hypothetical
+    form: If + V-ed/did
+    meaning_ja: 現在・未来の仮定
+    state: counterfactual
+    example_en: If I had more time...
+    toeic_hint: 仮定法過去
+  - label: 第2条件_main
+    clause: main
+    start: 0
+    end: 3
+    point_or_span: span
+    reality: hypothetical
+    form: would/could/might + V
+    meaning_ja: 仮定結果
+    state: counterfactual
+    example_en: ...I could help you.
+    toeic_hint: would/could
+  - label: 第3条件_if
+    clause: if
+    start: -3
+    end: -3
+    point_or_span: point
+    reality: counterfactual
+    form: If + had done
+    meaning_ja: 過去の反実仮想
+    state: counterfactual
+    example_en: If you had asked me...
+    toeic_hint: had done
+  - label: 第3条件_main
+    clause: main
+    start: -3
+    end: -3
+    point_or_span: point
+    reality: counterfactual
+    form: would/could/might have done
+    meaning_ja: 過去の仮定結果
+    state: counterfactual
+    example_en: ...I would have helped you.
+    toeic_hint: would have done
+  - label: 混合条件_if
+    clause: if
+    start: -3
+    end: -3
+    point_or_span: point
+    reality: counterfactual
+    form: If + had done
+    meaning_ja: 過去原因
+    state: counterfactual
+    example_en: If she had studied accounting...
+    toeic_hint: 過去仮定
+  - label: 混合条件_main
+    clause: main
+    start: 0
+    end: 0
+    point_or_span: point
+    reality: counterfactual
+    form: would/could/might + V
+    meaning_ja: 現在結果
+    state: counterfactual
+    example_en: ...she could handle this task now.
+    toeic_hint: 過去原因→現在結果

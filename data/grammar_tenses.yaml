@@ -1,0 +1,192 @@
+section_id: 2
+columns:
+  - 形
+  - 一般形
+  - 時間
+  - 一点/期間
+  - 状態
+  - 例文
+  - 日本語
+  - TOEICでの見方
+rows:
+  - 形: 現在形
+    一般形: V / V-s
+    時間: 現在・一般
+    一点/期間: 習慣・一般
+    状態: 事実・習慣
+    例文: The office opens at 9.
+    日本語: そのオフィスは9時に開きます。
+    TOEICでの見方: 規則・事実
+  - 形: 過去形
+    一般形: V-ed / did
+    時間: 過去
+    一点/期間: 一点
+    状態: 過去の出来事
+    例文: The office closed early yesterday.
+    日本語: そのオフィスは昨日早く閉まりました。
+    TOEICでの見方: yesterdayなどと相性
+  - 形: 未来表現
+    一般形: will + V
+    時間: 未来
+    一点/期間: 一点/期間
+    状態: 予定・予測
+    例文: We will send the invoice tomorrow.
+    日本語: 明日請求書を送ります。
+    TOEICでの見方: 未来の予定・意志
+  - 形: 現在進行形
+    一般形: am/is/are + V-ing
+    時間: 現在
+    一点/期間: 期間
+    状態: 今している最中
+    例文: She is reviewing the file.
+    日本語: 彼女は今ファイルを確認しています。
+    TOEICでの見方: 進行中・近い予定
+  - 形: 過去進行形
+    一般形: was/were + V-ing
+    時間: 過去
+    一点/期間: 期間
+    状態: 過去のある時点で進行中
+    例文: They were preparing the room.
+    日本語: 彼らは部屋を準備していました。
+    TOEICでの見方: 背景動作
+  - 形: 現在完了
+    一般形: have/has + done
+    時間: 過去→現在
+    一点/期間: 期間/結果
+    状態: 完了・経験・結果
+    例文: We have received your application.
+    日本語: 申請書を受け取りました。
+    TOEICでの見方: 今に関係がある
+  - 形: 現在完了進行形
+    一般形: have/has been + V-ing
+    時間: 過去→現在
+    一点/期間: 期間
+    状態: 継続中・途中経過
+    例文: We have been reviewing your application.
+    日本語: 申請書を確認しているところです。
+    TOEICでの見方: ずっと続いている
+  - 形: 過去完了
+    一般形: had + done
+    時間: 過去より前→過去
+    一点/期間: 一点/結果
+    状態: 過去の基準点までに完了
+    例文: The train had left when we arrived.
+    日本語: 私たちが着いた時、電車は出発していました。
+    TOEICでの見方: 過去の過去
+  - 形: 過去完了進行形
+    一般形: had been + V-ing
+    時間: 過去より前→過去
+    一点/期間: 期間
+    状態: 過去の基準点まで継続
+    例文: They had been waiting for an hour.
+    日本語: 彼らは1時間待っていました。
+    TOEICでの見方: 過去までの継続
+  - 形: 未来完了
+    一般形: will have + done
+    時間: 現在→未来
+    一点/期間: 期間/結果
+    状態: 未来の時点までに完了
+    例文: We will have completed the work by Friday.
+    日本語: 金曜までに仕事を終えているでしょう。
+    TOEICでの見方: by Fridayなどが目印
+timeline:
+  - label: 現在形
+    start: 0
+    end: 3
+    point_or_span: habit
+    state: habit
+    reality: fact
+    form: V / V-s
+    meaning_ja: 現在の習慣・一般事実
+    example_en: The office opens at 9.
+    toeic_hint: 規則・事実
+  - label: 過去形
+    start: -3
+    end: -3
+    point_or_span: point
+    state: action_point
+    reality: fact
+    form: V-ed / did
+    meaning_ja: 過去の一点
+    example_en: The office closed early yesterday.
+    toeic_hint: yesterdayなど
+  - label: 未来表現
+    start: 0
+    end: 3
+    point_or_span: span
+    state: intention
+    reality: fact
+    form: will + V
+    meaning_ja: 未来の予定・予測
+    example_en: We will send the invoice tomorrow.
+    toeic_hint: 未来表現
+  - label: 現在進行形
+    start: -0.5
+    end: 0.5
+    point_or_span: progress
+    state: in_progress
+    reality: fact
+    form: am/is/are + V-ing
+    meaning_ja: 進行中
+    example_en: She is reviewing the file.
+    toeic_hint: いま進行中
+  - label: 過去進行形
+    start: -3.5
+    end: -2.5
+    point_or_span: progress
+    state: in_progress
+    reality: fact
+    form: was/were + V-ing
+    meaning_ja: 過去の進行中
+    example_en: They were preparing the room.
+    toeic_hint: 背景描写
+  - label: 現在完了
+    start: -3
+    end: 0
+    point_or_span: span
+    state: result
+    reality: fact
+    form: have/has + done
+    meaning_ja: 過去から現在まで
+    example_en: We have received your application.
+    toeic_hint: 今に関係
+  - label: 現在完了進行形
+    start: -3
+    end: 0
+    point_or_span: progress
+    state: in_progress
+    reality: fact
+    form: have/has been + V-ing
+    meaning_ja: 継続中
+    example_en: We have been reviewing your application.
+    toeic_hint: 継続
+  - label: 過去完了
+    start: -5
+    end: -3
+    point_or_span: span
+    state: completed
+    reality: fact
+    form: had + done
+    meaning_ja: 過去の基準点より前
+    example_en: The train had left when we arrived.
+    toeic_hint: 過去の過去
+  - label: 過去完了進行形
+    start: -5
+    end: -3
+    point_or_span: progress
+    state: in_progress
+    reality: fact
+    form: had been + V-ing
+    meaning_ja: 過去まで継続
+    example_en: They had been waiting for an hour.
+    toeic_hint: 過去まで継続
+  - label: 未来完了
+    start: 0
+    end: 3
+    point_or_span: result
+    state: completed
+    reality: fact
+    form: will have + done
+    meaning_ja: 未来時点までに完了
+    example_en: We will have completed the work by Friday.
+    toeic_hint: by + 時点

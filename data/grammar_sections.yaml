@@ -1,0 +1,54 @@
+- section_id: 1
+  slug: section_01
+  title: "1. 記号の意味"
+  description: "この教材では、動詞の形を V / V-ed / done / V-ing のように一般化して表します。"
+  point_box: "ポイント：規則動詞では V-ed と done が同じ形になりますが、不規則動詞では異なります。"
+  has_timeline: false
+- section_id: 2
+  slug: section_02
+  title: "2. 時制・完了形の一覧：時間軸で理解"
+  description: "時制は、過去・現在・未来に加えて、一点か期間か、進行中か完了かで整理します。"
+  point_box: "ポイント：現在完了は今から過去を振り返る、過去完了は過去の時点からさらに前を振り返る。"
+  has_timeline: true
+- section_id: 3
+  slug: section_03
+  title: "3. 条件文・仮定法の一覧：時間軸で理解"
+  description: "if節と主節の組み合わせを、時点と現実度で比較します。"
+  point_box: "ポイント：第2条件は現在・未来の仮定、第3条件は過去の反実仮想。"
+  has_timeline: true
+- section_id: 4
+  slug: section_04
+  title: "4. 助動詞 + V の一覧：現在・未来の可能性・能力・丁寧さ"
+  description: "助動詞 + V が表す現在・未来の意味を整理します。"
+  point_box: "ポイント：could V は過去だけでなく、現在・未来の丁寧な可能性にも使えます。"
+  has_timeline: false
+- section_id: 5
+  slug: section_05
+  title: "5. 助動詞 + have done の一覧：過去推量・過去仮定"
+  description: "modal + have done が過去に向かう形であることを整理します。"
+  point_box: "ポイント：modal + have done は過去に対する推量・仮定・後悔を表します。"
+  has_timeline: true
+- section_id: 6
+  slug: section_06
+  title: "6. 特に混同しやすい形だけ比較"
+  description: "見た目が似ている形を時間軸と意味で比較します。"
+  point_box: "ポイント：have done が付くと多くの場合、視点が過去側へ移動します。"
+  has_timeline: true
+- section_id: 7
+  slug: section_07
+  title: "7. TOEICでの実戦判断：If you ___, please let us know."
+  description: "依頼表現とセットで出る条件節の判断を整理します。"
+  point_box: "ポイント：please let us know 型は、基本的にこれから可能かどうかを見る。"
+  has_timeline: false
+- section_id: 8
+  slug: section_08
+  title: "8. 一番使える判定表：見た形 → 時間軸 → 状態"
+  description: "見た形から時間軸と状態を即判定できる一覧です。"
+  point_box: "ポイント：迷ったら、いつの話かを先に決め、次に状態を判定します。"
+  has_timeline: true
+- section_id: 9
+  slug: section_09
+  title: "9. 見抜くコツ：判断手順"
+  description: "TOEIC問題で迷ったときの判断手順を固定します。"
+  point_box: "まとめ：時間軸 × 状態 × 文脈で判断する。"
+  has_timeline: false

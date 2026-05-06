@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <nav class="section-tabs" role="tablist" aria-label="文法セクション">
+    {% for section in sections %}
+      <button
+        id="tab-{{ section.section_id }}"
+        class="section-tab"
+        role="tab"
+        aria-controls="section-{{ section.section_id }}"
+        aria-selected="false"
+        data-section="{{ section.section_id }}"
+        style="--section-color: {{ section.color }};"
+      >
+        {{ section.title }}
+      </button>
+    {% endfor %}
+  </nav>
+
+  <main id="section-container">
+    {% for section in sections %}
+      {% include "section.html.j2" %}
+    {% endfor %}
+  </main>
+{% endblock %}

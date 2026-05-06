@@ -1,0 +1,137 @@
+section_id: 5
+columns:
+  - 形
+  - 一般形
+  - 主な意味
+  - 時間
+  - 例文
+  - 日本語
+  - ニュアンス
+rows:
+  - 形: may have done
+    一般形: may have done
+    主な意味: 〜したかもしれない
+    時間: 過去
+    例文: He may have forgotten it.
+    日本語: 彼はそれを忘れた可能性があります。
+    ニュアンス: 過去推量。可能性やや高め
+  - 形: might have done
+    一般形: might have done
+    主な意味: 〜したかもしれない
+    時間: 過去
+    例文: He might have forgotten it.
+    日本語: 彼はそれを忘れたかもしれません。
+    ニュアンス: 過去推量。控えめ
+  - 形: could have done
+    一般形: could have done
+    主な意味: 〜できたかもしれない／できたのに
+    時間: 過去
+    例文: We could have finished it earlier.
+    日本語: もっと早く終えられたかもしれません。
+    ニュアンス: 可能性・機会
+  - 形: would have done
+    一般形: would have done
+    主な意味: 〜しただろうに
+    時間: 過去
+    例文: I would have joined the meeting.
+    日本語: 会議に参加しただろうに。
+    ニュアンス: 過去の反実仮想
+  - 形: should have done
+    一般形: should have done
+    主な意味: 〜すべきだった
+    時間: 過去
+    例文: You should have checked it.
+    日本語: それを確認すべきでした。
+    ニュアンス: 後悔・助言
+  - 形: must have done
+    一般形: must have done
+    主な意味: 〜したに違いない
+    時間: 過去
+    例文: She must have missed it.
+    日本語: 彼女はそれを見落としたに違いありません。
+    ニュアンス: 強い推量
+  - 形: can't have done
+    一般形: can't have done
+    主な意味: 〜したはずがない
+    時間: 過去
+    例文: He can't have approved it.
+    日本語: 彼がそれを承認したはずがありません。
+    ニュアンス: 強い否定推量
+timeline:
+  - label: may have done
+    start: -3
+    end: -3
+    point_or_span: point
+    style: point_uncertain
+    form: may have done
+    meaning_ja: 過去推量
+    state: deduction
+    reality: fact
+    example_en: He may have forgotten it.
+    toeic_hint: 過去の可能性
+  - label: might have done
+    start: -3
+    end: -3
+    point_or_span: point
+    style: point_uncertain
+    form: might have done
+    meaning_ja: 過去推量
+    state: deduction
+    reality: fact
+    example_en: He might have forgotten it.
+    toeic_hint: 控えめ推量
+  - label: could have done
+    start: -3
+    end: -3
+    point_or_span: point
+    style: point_possible
+    form: could have done
+    meaning_ja: 過去の可能性・機会
+    state: possibility
+    reality: fact
+    example_en: We could have finished it earlier.
+    toeic_hint: できたのに
+  - label: would have done
+    start: -3
+    end: -3
+    point_or_span: point
+    style: point_counterfactual
+    form: would have done
+    meaning_ja: 過去の反実仮想
+    state: counterfactual
+    reality: counterfactual
+    example_en: I would have joined the meeting.
+    toeic_hint: 仮定法
+  - label: should have done
+    start: -3
+    end: -3
+    point_or_span: point
+    style: point_regret
+    form: should have done
+    meaning_ja: 後悔・助言
+    state: advice
+    reality: fact
+    example_en: You should have checked it.
+    toeic_hint: 後悔
+  - label: must have done
+    start: -3
+    end: -3
+    point_or_span: point
+    style: point_deduction
+    form: must have done
+    meaning_ja: 強い過去推量
+    state: deduction
+    reality: fact
+    example_en: She must have missed it.
+    toeic_hint: 強い推量
+  - label: can't have done
+    start: -3
+    end: -3
+    point_or_span: point
+    style: point_negative_deduction
+    form: can't have done
+    meaning_ja: 強い否定推量
+    state: deduction
+    reality: fact
+    example_en: He can't have approved it.
+    toeic_hint: 否定推量

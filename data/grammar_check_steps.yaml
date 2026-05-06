@@ -1,0 +1,41 @@
+section_id: 9
+steps:
+  - step: 1
+    title: 何と何をつないでいるか
+    body: 単語か、句か、節かを見る。
+    example: "either by email or through the online portal → 前置詞句どうし"
+  - step: 2
+    title: 時間はいつか
+    body: 過去 / 現在 / 未来 / 過去より前 / 過去から現在を判定する。
+    example: "had done → 過去の基準点より前"
+  - step: 3
+    title: 一点か期間か
+    body: 一点の出来事か、期間継続かを判定する。
+    example: "was V-ing → 過去のある期間で進行中"
+  - step: 4
+    title: 状態を確認
+    body: 進行中、習慣、完了、経験、結果、推量、仮定を確認する。
+    example: "have done → 完了/結果"
+  - step: 5
+    title: 現実か仮定か
+    body: if節、would、could、might、had done などを手掛かりにする。
+    example: "If + had done / would have done → 過去の反実仮想"
+  - step: 6
+    title: 後ろの文脈を見る
+    body: please let us know / contact us / confirm があれば、これからの対応確認の可能性が高い。
+    example: "If you could..., please let us know."
+quiz:
+  sentence: "If you ___ one of those instead, please let us know."
+  options:
+    - form: would have done
+      meaning: 過去の反実仮想
+      verdict: "×"
+    - form: had done
+      meaning: 過去の仮定
+      verdict: "×"
+    - form: have been V-ing
+      meaning: 継続中
+      verdict: "△"
+    - form: could V
+      meaning: 現在・未来の可能性/丁寧
+      verdict: "◎"

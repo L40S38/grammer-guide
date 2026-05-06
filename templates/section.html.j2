@@ -1,0 +1,34 @@
+<section
+  id="section-{{ section.section_id }}"
+  class="grammar-section"
+  role="tabpanel"
+  aria-labelledby="tab-{{ section.section_id }}"
+  data-section-id="{{ section.section_id }}"
+  hidden
+>
+  <article class="section-card">
+    <h2>{{ section.title }}</h2>
+    <p>{{ section.description }}</p>
+
+    {% if section.timeline_html %}
+      {% include "components/timeline.html.j2" %}
+    {% endif %}
+
+    {% if section.table_html %}
+      {% include "components/table.html.j2" %}
+    {% endif %}
+
+    {% if section.cards_html %}
+      {{ section.cards_html | safe }}
+    {% endif %}
+
+    {% if section.point_box %}
+      {% include "components/note_box.html.j2" %}
+    {% endif %}
+
+    <div class="section-nav-inline">
+      <button class="section-nav-btn" data-goto="{{ section.prev_id }}">← 前のセクション</button>
+      <button class="section-nav-btn" data-goto="{{ section.next_id }}">次のセクション →</button>
+    </div>
+  </article>
+</section>

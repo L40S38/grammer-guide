@@ -1,0 +1,69 @@
+section_id: 1
+columns:
+  - 記号
+  - 意味
+  - 例1_work
+  - 例2_send
+  - 例3_write
+  - 注意
+rows:
+  - 記号: V
+    意味: 動詞の原形
+    例1_work: work
+    例2_send: send
+    例3_write: write
+    注意: 助動詞の後ろ、命令文など
+  - 記号: V-s
+    意味: 三単現
+    例1_work: works
+    例2_send: sends
+    例3_write: writes
+    注意: 現在形で主語が三人称単数
+  - 記号: V-ed/did
+    意味: 過去形
+    例1_work: worked
+    例2_send: sent
+    例3_write: wrote
+    注意: 過去の一点、仮定法過去にも使う
+  - 記号: done
+    意味: 過去分詞
+    例1_work: worked
+    例2_send: sent
+    例3_write: written
+    注意: 完了形・受動態で使う
+  - 記号: V-ing
+    意味: 現在分詞・動名詞
+    例1_work: working
+    例2_send: sending
+    例3_write: writing
+    注意: 進行形・動名詞
+  - 記号: be + V-ing
+    意味: 進行形
+    例1_work: is working
+    例2_send: is sending
+    例3_write: is writing
+    注意: その時点で進行中
+  - 記号: have + done
+    意味: 現在完了
+    例1_work: has worked
+    例2_send: has sent
+    例3_write: has written
+    注意: 過去から現在へのつながり
+  - 記号: had + done
+    意味: 過去完了
+    例1_work: had worked
+    例2_send: had sent
+    例3_write: had written
+    注意: 過去のある時点より前
+  - 記号: modal + V
+    意味: 助動詞 + 原形
+    例1_work: can work
+    例2_send: may send
+    例3_write: could write
+    注意: 助動詞の後ろは原形
+  - 記号: modal + have done
+    意味: 助動詞 + 完了形
+    例1_work: may have worked
+    例2_send: could have sent
+    例3_write: would have written
+    注意: 過去推量・過去仮定

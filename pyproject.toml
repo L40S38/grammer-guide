@@ -1,7 +1,7 @@
 [project]
 name = "grammer-guide"
 version = "0.1.0"
-description = "Add your description here"
+description = "TOEIC grammar timeline visual guide"
 readme = "README.md"
 authors = [
     { name = "L40S38", email = "82433665+L40S38@users.noreply.github.com" }
@@ -15,7 +15,7 @@ dependencies = [
 ]
 
 [project.scripts]
-grammer-guide = "grammer_guide:main"
+grammar-guide-build = "grammar_guide.build_site:main"
 
 [build-system]
 requires = ["uv_build>=0.9.18,<0.10.0"]

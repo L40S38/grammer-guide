@@ -1,0 +1,107 @@
+section_id: 6
+columns:
+  - 比較する形
+  - 時間軸
+  - 一点/期間
+  - 主な意味
+  - 例文
+  - 日本語
+  - 混同ポイント
+rows:
+  - 比較する形: could V
+    時間軸: 現在・未来
+    一点/期間: 一点/期間
+    主な意味: できるかもしれない・丁寧にできるなら
+    例文: If you could reply, please let us know.
+    日本語: 返信できるようでしたらお知らせください。
+    混同ポイント: 過去とは限らない
+  - 比較する形: could have done
+    時間軸: 過去
+    一点/期間: 一点
+    主な意味: できたかもしれない／できたのに
+    例文: We could have sent it yesterday.
+    日本語: 昨日送ることもできました。
+    混同ポイント: 現在・未来ではない
+  - 比較する形: would V
+    時間軸: 現在・未来の仮定
+    一点/期間: 一点/期間
+    主な意味: 〜するだろう
+    例文: I would choose this option.
+    日本語: 私ならこの選択肢を選びます。
+    混同ポイント: 仮定上の話
+  - 比較する形: would have done
+    時間軸: 過去の仮定
+    一点/期間: 一点
+    主な意味: 〜しただろうに
+    例文: I would have chosen this option.
+    日本語: 私ならこの選択肢を選んでいたでしょう。
+    混同ポイント: 過去の話
+  - 比較する形: may V
+    時間軸: 現在・未来
+    一点/期間: 一点/期間
+    主な意味: 〜かもしれない
+    例文: The price may change.
+    日本語: 価格が変わるかもしれません。
+    混同ポイント: 未来の可能性
+  - 比較する形: may have done
+    時間軸: 過去
+    一点/期間: 一点
+    主な意味: 〜したかもしれない
+    例文: The price may have changed.
+    日本語: 価格が変わった可能性があります。
+    混同ポイント: 過去の可能性
+  - 比較する形: had done
+    時間軸: 過去より前→過去
+    一点/期間: 一点/結果
+    主な意味: 〜していた
+    例文: The train had left when we arrived.
+    日本語: 着いた時には電車は出ていました。
+    混同ポイント: 過去の過去
+  - 比較する形: have/has done
+    時間軸: 過去→現在
+    一点/期間: 期間/結果
+    主な意味: 〜した／している
+    例文: The event has started.
+    日本語: イベントは始まっています。
+    混同ポイント: 今に関係する
+timeline:
+  - label: could V
+    start: 0
+    end: 3
+    point_or_span: span
+    state: possibility
+    reality: hypothetical
+    form: could + V
+    meaning_ja: 現在・未来の可能性
+    example_en: If you could reply...
+    toeic_hint: 丁寧依頼で頻出
+  - label: could have done
+    start: -3
+    end: -3
+    point_or_span: point
+    state: possibility
+    reality: fact
+    form: could have done
+    meaning_ja: 過去の可能性
+    example_en: We could have sent it yesterday.
+    toeic_hint: 過去推量
+  - label: would V
+    start: 0
+    end: 3
+    point_or_span: span
+    state: counterfactual
+    reality: hypothetical
+    form: would + V
+    meaning_ja: 現在・未来の仮定
+    example_en: I would choose this option.
+    toeic_hint: 仮定
+  - label: would have done
+    start: -3
+    end: -3
+    point_or_span: point
+    state: counterfactual
+    reality: counterfactual
+    form: would have done
+    meaning_ja: 過去の反実仮想
+    example_en: I would have chosen this option.
+    toeic_hint: 過去仮定

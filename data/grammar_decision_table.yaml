@@ -1,0 +1,145 @@
+section_id: 8
+columns:
+  - 見た形
+  - まず考える意味
+  - 時間軸
+  - 一点/期間
+  - 状態
+  - 例文
+  - TOEICヒント
+rows:
+  - 見た形: V / V-s
+    まず考える意味: 事実・条件・習慣
+    時間軸: 現在・未来/一般
+    一点/期間: 習慣・一般
+    状態: 事実・習慣
+    例文: If it arrives, please inspect it.
+    TOEICヒント: 条件文では未来でも現在形
+  - 見た形: V-ed / did
+    まず考える意味: 過去、または仮定法
+    時間軸: 過去 or 仮定
+    一点/期間: 一点
+    状態: 過去の出来事/仮定
+    例文: If we received it, we would call you.
+    TOEICヒント: 過去形か仮定法か文脈で判断
+  - 見た形: have/has done
+    まず考える意味: 今につながる完了・経験
+    時間軸: 過去→現在
+    一点/期間: 期間/結果
+    状態: 完了・経験・結果
+    例文: We have updated the schedule.
+    TOEICヒント: 今に関係がある
+  - 見た形: had done
+    まず考える意味: 過去のある時点より前
+    時間軸: 過去より前→過去
+    一点/期間: 一点/結果
+    状態: 過去の過去
+    例文: The report had been submitted.
+    TOEICヒント: 過去完了 or 第3条件
+  - 見た形: will V
+    まず考える意味: 未来・意志・予定
+    時間軸: 未来
+    一点/期間: 一点/期間
+    状態: 予定・予測
+    例文: We will send the details.
+    TOEICヒント: 未来の基本
+  - 見た形: would V
+    まず考える意味: 仮定上の結果・丁寧表現
+    時間軸: 現在・未来/仮定
+    一点/期間: 一点/期間
+    状態: 仮定・丁寧
+    例文: I would recommend checking the policy.
+    TOEICヒント: 丁寧表現にも使う
+  - 見た形: could V
+    まず考える意味: 可能性・能力・丁寧表現
+    時間軸: 現在・未来
+    一点/期間: 一点/期間
+    状態: 可能・丁寧
+    例文: If you could reply today, we would appreciate it.
+    TOEICヒント: 過去とは限らない
+  - 見た形: may/might V
+    まず考える意味: 現在・未来の可能性
+    時間軸: 現在・未来
+    一点/期間: 一点/期間
+    状態: 可能性
+    例文: The event may be postponed.
+    TOEICヒント: 未来の可能性
+  - 見た形: would have done
+    まず考える意味: 過去の反実仮想
+    時間軸: 過去
+    一点/期間: 一点
+    状態: 反実仮想
+    例文: We would have called you.
+    TOEICヒント: 過去に〜しただろうに
+  - 見た形: may/might have done
+    まず考える意味: 過去推量
+    時間軸: 過去
+    一点/期間: 一点
+    状態: 推量
+    例文: The manager may have approved the request.
+    TOEICヒント: 過去の可能性
+  - 見た形: should have done
+    まず考える意味: すべきだった
+    時間軸: 過去
+    一点/期間: 一点
+    状態: 後悔・助言
+    例文: You should have attached the receipt.
+    TOEICヒント: 過去への助言
+  - 見た形: must have done
+    まず考える意味: したに違いない
+    時間軸: 過去
+    一点/期間: 一点
+    状態: 強い推量
+    例文: She must have misunderstood the instructions.
+    TOEICヒント: 過去への強い推量
+timeline:
+  - label: V / V-s
+    start: 0
+    end: 3
+    point_or_span: habit
+    state: fact
+    reality: fact
+    form: V / V-s
+    meaning_ja: 事実・習慣
+    example_en: If it arrives, please inspect it.
+    toeic_hint: 条件節の現在形
+  - label: V-ed / did
+    start: -3
+    end: -3
+    point_or_span: point
+    state: action_point
+    reality: fact
+    form: V-ed / did
+    meaning_ja: 過去 or 仮定法
+    example_en: If we received it, we would call you.
+    toeic_hint: 文脈判定
+  - label: have/has done
+    start: -3
+    end: 0
+    point_or_span: result
+    state: completed
+    reality: fact
+    form: have/has done
+    meaning_ja: 過去から現在
+    example_en: We have updated the schedule.
+    toeic_hint: 現在との接続
+  - label: had done
+    start: -5
+    end: -3
+    point_or_span: result
+    state: completed
+    reality: fact
+    form: had done
+    meaning_ja: 過去の過去
+    example_en: The report had been submitted.
+    toeic_hint: 過去基準点
+  - label: will V
+    start: 0
+    end: 3
+    point_or_span: span
+    state: intention
+    reality: fact
+    form: will V
+    meaning_ja: 未来
+    example_en: We will send the details.
+    toeic_hint: 未来予定
