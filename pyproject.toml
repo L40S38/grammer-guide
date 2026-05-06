@@ -1,0 +1,29 @@
+[project]
+name = "grammer-guide"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "L40S38", email = "82433665+L40S38@users.noreply.github.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "jinja2>=3.1.6",
+    "pandas>=3.0.2",
+    "plotly>=6.7.0",
+    "pyyaml>=6.0.3",
+]
+
+[project.scripts]
+grammer-guide = "grammer_guide:main"
+
+[build-system]
+requires = ["uv_build>=0.9.18,<0.10.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.2.0",
+    "jupyter>=1.1.1",
+    "nbconvert>=7.17.1",
+]
